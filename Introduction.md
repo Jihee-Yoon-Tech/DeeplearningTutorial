@@ -42,6 +42,15 @@ import tensorflow as tf
 <tr>
 <td> 2D Tensor</td> <td> Matrix</td>
 </tr>
+<tr>
+<td> 3D Tensor</td> <td> 데이터가 연속된 시퀀스 데이터, 시간 축이 포함된 시계열 데이터, 주식 가격 데이터셋, 시간에 따른 질병 발병 데이터 등이 존재</td>
+</tr>
+<tr>
+<td> 4D Tensor</td> <td> 컬러 이미지 데이터가 대표적인 사례(흑백 이미지 데이터는 3D Tensor로 가능)</td>
+</tr>
+<tr>
+<td> 5D Tensor</td> <td> 비디오 데이터가 대표적인 사례</td>
+</tr>
 </table>
 
 <details>
@@ -165,6 +174,13 @@ print(tf.rank(t3))
 
 <br>
 
+- 텐서의 기본 타입
+    - 정수형 텐서: int32
+    - 실수형 텐서: float32
+    - 문자열 텐서: string
+- int32, float32, string 타입 외에도 float16, int8 타입 등이 존재
+- 연산시 텐서의 타입 일치 필요
+- 타입 변환에는 tf.cast() 사용
 
 
 </details>
