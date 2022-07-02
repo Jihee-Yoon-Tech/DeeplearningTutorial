@@ -44,6 +44,11 @@ import tensorflow as tf
 </tr>
 </table>
 
+<details>
+<summary> 텐서의 개념, 차원, 데이터 예시 </summary>
+
+##
+
 ## 0D Tensor(i.e. Scalar)
 
 - 하나의 숫자를 담고 있는 텐서(tensor)
@@ -147,7 +152,22 @@ print(tf.rank(t3))
 - 비디오 데이터가 대표적인 사례
 - 주로 샘플(samples), 프레임(frames), 높이(height), 너비(width), 컬러 채널(channel)을 가진 구조로 사용
 
+</details>
 
+<br>
+
+<details>
+<summary> 텐서의 데이터 타입</summary>
+
+##
+
+## 텐서의 데이터 타입
+
+<br>
+
+
+
+</details>
 
 <br>
 
